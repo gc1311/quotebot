@@ -9,12 +9,12 @@ import pypwned
 import random
 
 
-BOT_ID = ('U239DGU91')
+BOT_ID = ('[bot ID]')
 
 AT_BOT = "<@" +BOT_ID + ">:"
 EXAMPLE_COMMAND = "do"
 
-slack_client = SlackClient('xoxb-71319572307-zwDZBwVJop4zrPd4uRo1oscD')
+slack_client = SlackClient('[slack API]')
 
 def handle_command(command, channel):
     """
